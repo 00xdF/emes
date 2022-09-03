@@ -16,5 +16,5 @@ E-mes is an education management system of Thailand's basic education department
 
 
 Or use sqlmap for injection
-> POC: sqlmap.py -u "http://localhost/~eme54/repschoolproj.php?claster=school&idarea=648*"
+> POC: sqlmap.py -u "http://localhost/eme/repschoolproj.php?claster=school&idarea=648*"
 
