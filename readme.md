@@ -3,7 +3,7 @@ E-mes is an education management system of Thailand's basic education department
 
 > [Attack Vectors]
 > A SQL injection vulnerability exists in the school information query interface (repschoolproj.php) of the EMS system of the Office of the Thai Basic Education Commission, which can lead to important data leakage.This website is owned by the Thai government, and if it is not repaired in time, it may lead to information leakage.
-> POC: 
+POC: 
 > 1.http://eme1.obec.go.th/~eme62/repschoolproj.php?claster=school&idarea=648
 > 2.http://203.159.250.192/~eme52/repschoolproj.php?claster=school&idarea=648
 > 3.http://203.159.250.194/~eme53/repschoolproj.php?claster=school&idarea=648
